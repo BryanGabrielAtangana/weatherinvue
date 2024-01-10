@@ -1,11 +1,13 @@
 <template>
-  <div>
+  <div class="w-full min-h-screen bg-violet-300">
+    <SiteNavigation />
     <RouterView />
   </div>
 </template>
 
 <script setup>
+import SiteNavigation from "./components/SiteNavigation.vue";
 import { RouterView } from "vue-router";
 </script>
 
-<style scoped></style>
+<style lang="scss" scoped></style>
