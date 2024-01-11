@@ -4,7 +4,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-      sans: ["Pacifico", "Sans-serif"],
+      Pacifico: ["Pacifico", "Sans-serif"],
+      Poppins: ["Poppins", "Sans-serif"],
+      Rubik: ["Rubik", "Sans-serif"],
     },
     extend: {},
   },
